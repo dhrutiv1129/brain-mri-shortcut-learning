@@ -47,3 +47,13 @@ This is an active research direction, not a closed project. I'm continuing to ex
 ## Full Report
  
 The complete writeup — related work, full methodology, all four Grad-CAM figure sets, and the discussion of limitations — is available [here](Investigating_Shortcut_Learning_in_Brain_Tumor_Classification___CSE_493G_Final_Report.pdf).
+
+# AI Notice
+
+I used AI as an engineering and research productivity tool throughout this project, but not to design the research itself or interpret the findings.
+
+- **ChatGPT** was primarily used as a research discussion partner. I used it to brainstorm experimental directions, critique hypotheses, discuss potential confounding variables, understand related work, and think through the implications of Grad-CAM visualizations and shortcut learning. It also helped me sanity-check parts of my experimental methodology before implementation.
+- **Claude Code** was used for implementation-oriented tasks, such as scaffolding portions of the training pipeline, debugging PyTorch code, refactoring preprocessing utilities, and accelerating repetitive coding tasks. The experimental design, preprocessing intervention, Grad-CAM implementation, model evaluation strategy, and interpretation of the results were my own work.
+- **GitHub Copilot** was used for routine in-editor code completion, boilerplate generation, and repetitive API usage while working with PyTorch, torchvision, and matplotlib.
+ChatGPT and Claude were occasionally used to explain unfamiliar PyTorch APIs, discuss implementation tradeoffs, and help debug runtime errors during development.
+AI was not used to generate the research question, derive the conclusions, interpret the Grad-CAM visualizations, or write the core analysis. The central hypothesis, shortcut-learning investigation, experimental design, preprocessing intervention, evaluation methodology, and interpretation of the results were developed by me (in collaboration with my research team where applicable).
